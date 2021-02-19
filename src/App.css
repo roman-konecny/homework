@@ -1,0 +1,55 @@
+body {
+  background: url("/images/background.jpg");
+  background-size: cover;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+}
+
+.wrapper {
+  width: 40vw;
+  padding: 2em 2em;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.356);
+  border-radius: 15px;
+}
+
+button {
+  all: unset;
+  padding: 1em 2em;
+  font-weight: bold;
+  background-color: rgba(0, 153, 255, 0.699);
+  border-radius: 15px;
+  text-transform: uppercase;
+  transition: 400ms;
+}
+
+button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.438);
+  background-color: rgba(0, 174, 255, 0.363);
+  font-size: large;
+}
+
+.table-wrapper {
+  padding: 3em 2em;
+  height: 45vh;
+}
+
+li {
+  padding-bottom: 0.5em;
+}
+
+.pre-table {
+  background-color: rgba(240, 248, 255, 0.815);
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+ul {
+  list-style: none;
+}
